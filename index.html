@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kő, papír, olló</title>
+</head>
+<body>
+    <div align="center">
+    <h1>Kő, Papír, Olló</h1>
+    <table width="100%" border-style="none">
+        <tr>
+            <th width="33%" id="jatekosKiir" align="left">Játékos választása:<br></td>
+             <th width="33%" >Eredmény:<br></td>
+              <th width="33%" id="gepKiir">Gép választása:<br></td>
+        </tr>
+                    <div id="Choice">
+                        <tr><td><button onclick="Jatek('kő')" ><img src="kő.png" alt="Kő" height="200 px"></button></td>  <td><b><div id="gyoz" class="allas">Győzelmek száma:</div> <div id="dont" class="allas">Döntetlenek száma:</div>   <div id="vesz" class="allas">Vereségek száma:</div></b></td>   <td rowspan="3" id="gepkep"></td></tr>
+                        <tr><td><button onclick="Jatek('papír')" ><img src="papír.png" alt="papír" height="200px"></button></td>  <td rowspan="2"><div id="eredmeny"></div></td>    </tr>
+                        <tr><td><button onclick="Jatek('olló')"><img src="olló.png" alt="olló" height="200px"></button></td></tr>
+                    </div>
+    </table>
+
+    </div>
+<script src="index.js"></script>
+    
+    
+</body>
+</html>
